@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bu_uis_request version="!VERSION!" session="!SESSION_KEY!"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="!XML_REQUEST_SCHEMA!"
+		xsi:schemaLocation="!XML_REQUEST_SCHEMA!
+							!XML_REQUEST_SCHEMA_LOC!">
+	<parameters>
+		!PARAMETERS!
+	</parameters>
+	<sync_parameters url="!SYNC_URL!" method="!SYNC_METHOD!">
+		!SYNC_PARAMETERS!
+	</sync_parameters>
+	<custom_data>
+		!CUSTOM_DATA!
+	</custom_data>
+</bu_uis_request>
